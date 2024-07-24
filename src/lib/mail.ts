@@ -13,7 +13,7 @@ export async function getMailClient() {
     },
     tls: {
       rejectUnauthorized: false
-  }
+    }
   })
 
   return transporter
